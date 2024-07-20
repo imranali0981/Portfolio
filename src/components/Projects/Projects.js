@@ -1,9 +1,11 @@
 import React from "react";
 import Title from "../title";
 import ProjectCard from "./ProjectCard";
-import pic1 from "../../assets/images/ProjectsImage/projectOne.jpg";
-import pic2 from "../../assets/images/ProjectsImage/projectTwo.jpg";
-import pic3 from "../../assets/images/ProjectsImage/projectThree.jpeg";
+import pic1 from "../../assets/images/ProjectsImage/chat-App.jpg";
+import pic2 from "../../assets/images/ProjectsImage/hostelManagement.png";
+import pic3 from "../../assets/images/ProjectsImage/weatherApp.png";
+import pic4 from "../../assets/images/ProjectsImage/TodoList.jpeg";
+import pic5 from "../../assets/images/ProjectsImage/flexClone.jpg";
 
 function Projects() {
   return (
@@ -33,7 +35,7 @@ function Projects() {
         <ProjectCard
           title="To Do List"
           des="consectetur adipisicing elit. Laborum nesciunt nulla architecto perspiciatis hic similique sit illum "
-          source={pic1}
+          source={pic4}
         />
         <ProjectCard
           title="Travel Management System"
@@ -43,7 +45,7 @@ function Projects() {
         <ProjectCard
           title="Flex Clone"
           des="consectetur adipisicing elit. Laborum nesciunt  necessitatibus. Vel deleniti esse, harum nesciunt facilis "
-          source={pic3}
+          source={pic5}
         />
       </div>
     </section>
