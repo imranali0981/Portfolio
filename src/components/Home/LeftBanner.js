@@ -23,26 +23,28 @@ export default function LeftBanner() {
             <span style={{ fontWeight: "bolder", color: "White" }}>
               <Typewriter
                 words={[
-                  "Full stack web designer",
-                  "a Programmer",
-                  "Data Analyst",
-                  "Graphic Designer",
+                  "Full stack web developer",
+                  "a Java Developer",
+                  "a C Developer",
+                  "a Python Developer",
                 ]}
                 loop={0}
                 cursor
                 cursorStyle="|"
                 cursorBlinking="_"
-                deleteSpeed={300}
-                typeSpeed={120}
+                deleteSpeed={50}
+                typeSpeed={150}
                 delaySpeed={1000}
               />
             </span>
           </h2>
         </div>
         <div className="text-sm md:text-base font-bodyFont leading-6 tracking-wide py-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde in
-          est excepturi, natus provident quisquam ut dolores possimus tempore,
-          id similique dolore quod ea, officia itaque odio cupiditate fugit?
+          "I’m a software engineer with a strong focus on web development,
+          specializing in React for the frontend and Node.js with Express for
+          the backend. My expertise includes authentication (OAuth, JWT,
+          Passport.js), database management with MongoDB, and deployment using
+          AWS services.
         </div>
 
         <div className="flex flex-col md:flex-row justify-between gap-6">
@@ -51,15 +53,27 @@ export default function LeftBanner() {
               Find me in
             </h2>
             <div className="flex gap-3">
-              <span className="bannerIcon">
+              <a
+                href="https://github.com/imranali0981"
+                target="black"
+                className="bannerIcon"
+              >
                 <FaGithub />
-              </span>
-              <span className="bannerIcon">
+              </a>
+              <a
+                href="https://www.linkedin.com/in/imran-ali-278258212/"
+                target="black"
+                className="bannerIcon"
+              >
                 <FaLinkedinIn />
-              </span>
-              <span className="bannerIcon">
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100038440632598"
+                target="black"
+                className="bannerIcon"
+              >
                 <FaFacebook />
-              </span>
+              </a>
             </div>
           </div>
 

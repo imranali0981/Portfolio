@@ -146,7 +146,7 @@ const Footer = () => {
               <span>LinkedIn</span>
             </a>
             <a
-              href="https://github.com/imranpro427"
+              href="https://github.com/imranali0981"
               target="_black"
               className="text-lg hover:text-blue-600  items-center flex gap-3"
             >
